@@ -152,6 +152,14 @@
 
     </android.support.v4.widget.NestedScrollView>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/drop_shadow"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="bottom"
+        android:layout_gravity="bottom" />
+
     <android.support.design.widget.FloatingActionButton
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
